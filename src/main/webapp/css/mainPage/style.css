@@ -1,0 +1,275 @@
+/*
+*	 Author: Vijay Kumar
+*	 Template: Archon - Flat & Responsive Bootstrap Admin Template
+*	 Version: 1.0
+*	 Bootstrap version: 3.0.0
+*	 Copyright 2013 bootstrapguru
+*	 www: http://bootstrapguru.com
+*	 mail: support@bootstrapguru.com
+*	 You can find our other themes on: https://bootstrapguru.com/themes/
+---------------------------------------------------------------------------------------------- */
+/* variables */
+body {
+    background-color: #eeeff2;
+}
+
+body a:hover {
+    text-decoration: none;
+}
+
+.toggle-sidebar {
+    display: none;
+}
+
+#main-content {
+    padding: 20px;
+}
+
+/* Navbar
+---------------------------------------------------------------------------------------------- */
+/*注意！这里设置导航框样式*/
+.navbar {
+    margin: 0;
+    padding: 0 30px;
+    position: relative;
+    height: 50px;
+}
+
+
+.frame {
+    position: relative;
+    overflow: hidden;
+    min-height: 1000px;
+}
+
+.sidebar {
+    width: 280px;
+    height: 1000px;
+    position: absolute;
+}
+
+.sidebar a {
+    color: #082e54;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+
+.sidebar a:hover {
+    color: #082e54;
+    margin-left: 10px !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar a.logo:hover {
+    color: #082e54;
+    margin-left: 0px !important;
+}
+
+.sidebar .wrapper {
+    padding: 0 20px;
+}
+
+.sidebar .nav {
+    padding: 0 0 100px;
+}
+
+.sidebar .nav > li > ul > li {
+    margin-bottom: 2px;
+}
+
+.sidebar .nav > li > ul,
+.sidebar .nav > li > ul ul {
+    list-style: none;
+    padding-left: 5px;
+    display: none;
+    border-left: 2px solid #082e54;
+    margin-left: 20px;
+}
+
+.sidebar .nav > li > ul > li > a,
+.sidebar .nav > li > ul ul > li > a {
+    position: relative;
+    display: block;
+}
+
+.sidebar .nav > li > a,
+.sidebar .nav > li > ul > li > a {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    line-height: 20px;
+    padding: 8px 5px 8px 0;
+    margin: 0;
+    text-shadow: inherit;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sidebar .nav > li > ul > li > a {
+    padding: 4px 5px 4px 0;
+}
+
+.sidebar .nav > li > a > i,
+.sidebar .nav > li > ul li > a > i {
+    color: #082e54;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 15px 0 10px;
+    text-align: center;
+    width: 20px;
+}
+
+.sidebar .nav > li.active > a > i,
+.sidebar .nav > li > ul > li.active > a > i {
+    color: #082e54;
+}
+
+.sidebar .nav > li > a:hover,
+.sidebar .nav > li.active > a,
+.sidebar .nav > li > ul li > a:hover,
+/*拉动框时候显示的颜色*/
+.sidebar .nav > li > ul li.active > a {
+    background: #bce8f1;
+    border-left: 5px solid #245c90;
+    color: #086ed5;
+}
+
+.sidebar .nav > li.frontend a {
+    color: #5c9df5;
+}
+
+.sidebar .nav > li > a:hover > i {
+    color: #082e;
+}
+
+.sidebar .nav > li > a .label {
+    background: none;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    border: 2px solid #2fa8ec;
+    color: #082e54;
+    font-size: 15px;
+    font-weight: 600;
+    float: right;
+    line-height: 20px;
+    padding: 0 10px;
+}
+
+.sidebar .nav > li + .nav-header {
+    margin-top: 20px;
+}
+
+/*这里设置menu头的样式*/
+.sidebar .nav .nav-header {
+    color: #086ed5;
+    font-size: 14px;
+    font-weight: 600;
+    text-shadow: none;
+}
+
+.inputform{
+    float: left;
+}
+
+/*搜索框*/
+.sidebar .nav .nav-search {
+    color: #082e54;
+    background-color: #eff6fa;;
+    font-size: 14px;
+    font-weight: 600;
+    width: 220px !important;
+    border-radius: inherit !important;
+    border: none !important;
+}
+
+.sidebar .nav .input-icon {
+    color: #777;
+    background-color: #082e54;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sidebar .nav .progress {
+    background: #2f2f2f;
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin: 0 0 5px;
+}
+
+.sidebar .nav .progress .bar {
+    border: 0;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+}
+
+.sidebar .nav .progress + div {
+    color: #082e54;
+    font-size: 12px;
+}
+
+/* Content
+---------------------------------------------------------------------------------------------- */
+.content {
+    padding-bottom: 50px;
+    position: relative;
+    margin-left: 280px;
+}
+
+.content .content-head {
+    /*background: #fff;*/
+    /*border-bottom: 1px solid #d2d4d6;*/
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    padding: 10px 30px 40px;
+}
+
+.content .content-head .breadcrumb {
+    background: none;
+    padding: 15px 0 30px;
+    margin: 0;
+    font-size: 90%;
+}
+
+.content .content-head h2 {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.content .profile-head .profile-name {
+    font-size: 21px;
+    margin-bottom: 4px;
+}
+
+.content .profile-head .profile-brief {
+    margin-bottom: 20px;
+}
+
+.content .content-body {
+    padding: 30px;
+}
+
+.bg-success {
+    background-color: #48C9B0 !important;
+}
+
+.bg-info {
+    background-color: #3498DB !important;
+}
+
+.bg-warning {
+    background-color: #F5D313 !important;
+}
+
+.bg-danger {
+    background-color: #E74C3C !important;
+}
+

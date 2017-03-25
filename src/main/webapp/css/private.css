@@ -1,0 +1,483 @@
+@charset "utf-8";
+/* CSS Document */
+
+BODY {
+    FONT-SIZE: 9pt;
+    font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
+!important;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+TD {
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: '宋体', verdana, arial, helvetica, sans-serif
+}
+
+TH {
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: '宋体', verdana, arial, helvetica, sans-serif
+}
+
+A {
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: '宋体', verdana, arial, helvetica, sans-serif;
+    border: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+.hds img {
+    vertical-align: middle;
+}
+
+input {
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: '宋体', verdana, arial, helvetica, sans-serif;
+    line-height: 18px;
+    height: 18px;
+}
+
+TEXTAREA {
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: '宋体', verdana, arial, helvetica, sans-serif;
+    line-height: 18px;
+}
+
+SELECT {
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: '宋体', verdana, arial, helvetica, sans-serif
+}
+
+BODY {
+    SCROLLBAR-FACE-COLOR: #7bb6e7;
+    BACKGROUND: #FFF;
+    MARGIN: 2px;
+    SCROLLBAR-HIGHLIGHT-COLOR: #7bb1e7;
+    SCROLLBAR-SHADOW-COLOR: #f4f4f4;
+    SCROLLBAR-3DLIGHT-COLOR: #f4f4f4;
+    SCROLLBAR-ARROW-COLOR: #f4f4f4;
+    SCROLLBAR-TRACK-COLOR: #add7ef;
+    SCROLLBAR-DARKSHADOW-COLOR: #799ae1
+}
+
+.imslistcp ul {
+    list-style: none;
+}
+
+.imslistcp li {
+    float: left;
+    width: 24.5%;
+    height: 190px;
+    padding: 5px 0;
+    overflow: hidden;
+    text-align: center;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.imslistcp li span.ims {
+    height: 120px;
+    width: 242px;
+    float: left;
+    clear: both;
+    overflow: hidden;
+}
+
+.imslistcp li img {
+    margin: 0 auto;
+    max-width: 240px;
+    _width: 240px;
+    max-height: 105px;
+    _height: 105px;
+    padding: 1px;
+    display: block;
+    border: 1px solid #CCCCCC;
+    clear: both;
+}
+
+.imslistcp li a {
+    color: #0066FF;
+    text-decoration: none;
+}
+
+.imslistcp li a:hover {
+    text-decoration: underline;
+}
+
+table.menu {
+    BORDER: #CCC 1px solid;
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    WIDTH: 98%;
+    PADDING-TOP: 0px;
+}
+
+table.menu TH {
+    CURSOR: hand;
+    COLOR: #ffffff;
+    HEIGHT: 22px;
+    line-height: 22px;
+    background: url(../images/hello/rt_titbg.gif) repeat-x 0 0;
+}
+
+table.menu TD {
+    PADDING-LEFT: 2px;
+    LINE-HEIGHT: 20px;
+    BACKGROUND-COLOR: #F1F9FC;
+    border-bottom: 1px solid #EBEBEB;
+    text-align: left;
+}
+
+table.menu TD A:link {
+    COLOR: #333333;
+    TEXT-DECORATION: none;
+}
+
+table.menu TD A:visited {
+    COLOR: #333333;
+    TEXT-DECORATION: none;
+}
+
+table.menu TD A:hover {
+    COLOR: #ff0000;
+    TEXT-DECORATION: underline;
+}
+
+input.cban {
+    background: #EEE;
+    line-height: 18px;
+    padding-left: 2px;
+    border: 1px solid #666;
+}
+
+input.cban:hover {
+    background: #FFF;
+    border: 1px solid #056516
+}
+
+table.form {
+    PADDING-RIGHT: 4px;
+    BORDER-TOP: 0px;
+    PADDING-LEFT: 4px;
+    PADDING-BOTTOM: 4px;
+    WIDTH: 98%;
+    PADDING-TOP: 4px;
+    BORDER: 1px solid #09F;
+    BACKGROUND-COLOR: #F1F9FC;
+}
+
+table.form th {
+    FONT-SIZE: 9pt;
+    COLOR: #ffffff;
+    HEIGHT: 24px;
+    background: url(../images/hello/rt_titbg.gif) repeat-x 0 0;
+}
+
+table.form td.bgs {
+    background: url(../images/hello/rt_titbg.gif) repeat-x 0 0;
+    text-align: center;
+    color: #FFF;
+    FONT-SIZE: 9pt;
+    font-weight: 800;
+}
+
+table.form TD {
+    PADDING-LEFT: 5px;
+    LINE-HEIGHT: 20px;
+    BACKGROUND-COLOR: #E8F2FC;
+}
+
+table.form TD A:link {
+    COLOR: #333333;
+    TEXT-DECORATION: underline
+}
+
+table.form TD A:visited {
+    COLOR: #333333;
+    TEXT-DECORATION: underline
+}
+
+table.form TD A:hover {
+    COLOR: #ff0000;
+    TEXT-DECORATION: underline
+}
+
+table.form input {
+    line-height: 18px;
+}
+
+table.list {
+    BORDER-RIGHT: 0px;
+    PADDING-RIGHT: 4px;
+    BORDER-TOP: 0px;
+    PADDING-LEFT: 4px;
+    PADDING-BOTTOM: 4px;
+    BORDER-LEFT: 0px;
+    WIDTH: 100%;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: 0px;
+    BACKGROUND-COLOR: #ffffff
+}
+
+table.list TH {
+    COLOR: #ffffff;
+    HEIGHT: 24px;
+    BACKGROUND-COLOR: #799ae1
+}
+
+table.list TD {
+    PADDING-LEFT: 5px;
+    LINE-HEIGHT: 20px;
+    BACKGROUND-COLOR: #d6dff7
+}
+
+table.list TD A:link {
+    COLOR: #333333;
+    TEXT-DECORATION: underline
+}
+
+table.list TD A:visited {
+    COLOR: #333333;
+    TEXT-DECORATION: underline
+}
+
+table.list TD A:hover {
+    COLOR: #ff0000;
+    TEXT-DECORATION: underline
+}
+
+table.navi {
+    PADDING-BOTTOM: 1px;
+    WIDTH: 98%;
+    PADDING-TOP: 1px;
+    BORDER-BOTTOM: 0px;
+    BACKGROUND-COLOR: #ffffff
+}
+
+table.navi TH {
+    PADDING-LEFT: 5px;
+    COLOR: #ffffff;
+    HEIGHT: 33px;
+    background: url(../images/hello/rt_titbg.gif) repeat-x 0 0;
+    TEXT-ALIGN: left
+}
+
+table.navi TD {
+    PADDING-LEFT: 5px;
+    LINE-HEIGHT: 25px;
+    BACKGROUND-COLOR: #d6dff7
+}
+
+table.navi TD A:link {
+    COLOR: #333333;
+    TEXT-DECORATION: underline
+}
+
+table.navi TD A:visited {
+    COLOR: #333333;
+    TEXT-DECORATION: underline
+}
+
+table.navi TD A:hover {
+    COLOR: #ff0000;
+    TEXT-DECORATION: underline
+}
+
+INPUT {
+}
+
+TEXTAREA {
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    BORDER-LEFT-COLOR: #cccccc;
+    BORDER-BOTTOM-WIDTH: 1px;
+    BORDER-BOTTOM-COLOR: #cccccc;
+    BORDER-TOP-COLOR: #cccccc;
+    BORDER-RIGHT-WIDTH: 1px;
+    BORDER-RIGHT-COLOR: #cccccc
+}
+
+SELECT {
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    BORDER-LEFT-COLOR: #000000;
+    BORDER-BOTTOM-WIDTH: 1px;
+    BORDER-BOTTOM-COLOR: #000000;
+    BORDER-TOP-COLOR: #000000;
+    BACKGROUND-COLOR: #efefef;
+    BORDER-RIGHT-WIDTH: 1px;
+    BORDER-RIGHT-COLOR: #000000
+}
+
+A {
+    COLOR: #333333;
+    TEXT-DECORATION: underline
+}
+
+.gray {
+    COLOR: gray
+}
+
+.red {
+    COLOR: red
+}
+
+.blue {
+    COLOR: blue
+}
+
+DIV#qTip {
+    BORDER-RIGHT: #99cc33 2px solid;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: #99cc33 1px solid;
+    DISPLAY: none;
+    PADDING-LEFT: 2px;
+    Z-INDEX: 10000;
+    BACKGROUND: #fff;
+    PADDING-BOTTOM: 2px;
+    BORDER-LEFT: #99cc33 1px solid;
+    COLOR: #000;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #99cc33 2px solid;
+    POSITION: absolute;
+    TEXT-ALIGN: left
+}
+
+.imslist li {
+    float: left;
+    width: 24.5%;
+    height: 168px;
+    padding: 5px 0;
+    overflow: hidden;
+    text-align: center;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.imslist li span.ims {
+    height: 120px;
+    width: 242px;
+    float: left;
+    clear: both;
+}
+
+.imslist li img {
+    margin: 0 auto;
+    max-width: 240px;
+    _width: 240px;
+    max-height: 105px;
+    _height: 105px;
+    padding: 1px;
+    display: block;
+    border: 1px solid #CCCCCC;
+    clear: both;
+}
+
+.imslist li a {
+    color: #0066FF;
+    text-decoration: none;
+}
+
+.imslist li a:hover {
+    text-decoration: underline;
+}
+
+.ard a {
+    color: #FFCC00;
+}
+
+.ard a {
+    color: #CCCCCC;
+}
+
+input.biganiu {
+    padding: 4px 6px;
+    line-height: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.hds {
+    height: 74px;
+    background: url(../images/hello/topbg.gif) repeat-x 0 bottom;
+    text-align: left;
+    position: relative;
+    width: 100%;
+}
+
+.hds .lefs {
+    float: left;
+    top: 5px;
+    left: 10px;
+    position: absolute;
+    width: 660px;
+}
+
+.hds .menu_top {
+    float: right;
+    position: absolute;
+    bottom: 2px;
+    height: 24px;
+    right: 20px;
+    font-size: 16px;
+}
+
+.hds .lefs .logos {
+    float: left;
+    width: 190px;
+    height: 54px;
+}
+
+.hds .lefs .tlts {
+    float: right;
+    padding-top: 10px;
+    line-height: 24px;
+    width: 450px;
+    font-size: 16px;
+    color: #333;
+}
+
+.hds .lefs .tlts a {
+    color: #090;
+    text-decoration: underline;
+}
+
+.ttst, .ttst a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.ttst a:hover {
+    text-decoration: underline;
+}
+
+.hds .menu_top li {
+    float: left;
+    padding: 0 5px;
+    font-size: 14px;
+    display: inline;
+    height: 24px;
+    line-height: 24px;
+    color: #000;
+}
+
+.menu_top li a {
+    color: #111;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.menu_top li a:hover {
+    color: #666;
+}

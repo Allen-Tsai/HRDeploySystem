@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hrdeploysystem2:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="hrdeploysystem2.war">
+      <element id="artifact" artifact-name="hrdeploysystem2:war exploded" />
+    </root>
+  </artifact>
+</component>
